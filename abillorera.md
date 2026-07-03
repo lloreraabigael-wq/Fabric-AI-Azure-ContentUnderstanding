@@ -1,12 +1,22 @@
 ---
-  title: 'Foundry Fabric Workshop'
-  module: 'Analyzing data with Microsoft Fabric'
+  Project Name: 'Intelligent Cloud-Based Analytics for Customer Interaction and Insights'
 ---
 
 # Analyzing data with Microsoft Fabric and Azure Content Understanding
 
 **Introduction**
-In this hands-on workshop, you'll build an end-to-end data analytics solution for analyzing customer service call recordings using Microsoft Azure and Fabric technologies.
+This project presents the design and implementation of an end‑to‑end analytics solution for processing and analyzing customer interaction data, specifically focusing on call recordings within a cloud‑based communication platform.
+
+The solution leverages Azure AI Foundry Content Understanding to extract structured insights from unstructured audio files, including sentiment classification, customer feedback themes, call outcomes, and interaction context. These insights are integrated into a unified analytics environment using Microsoft Fabric, enabling centralized data processing, storage, and reporting.
+
+A modern data architecture is implemented using a Fabric Lakehouse, where processed data is stored in a scalable and governed format within OneLake. A Fabric notebook is used to orchestrate AI‑driven analysis, while pipeline automation and event‑driven triggers enable continuous ingestion and processing of incoming recordings without manual intervention.
+
+The solution is further enhanced with:
+- A Data Agent, providing conversational analytics capabilities for     business users
+- A Power BI semantic model and report, enabling interactive visualization of key metrics and trends
+- Integration with Microsoft Teams and Copilot, allowing users to access insights through natural language queries and receive AI‑generated summaries directly within a collaborative workspace
+
+This integrated approach transforms unstructured customer interaction data into actionable insights that support operational monitoring, product improvement, and data‑driven decision‑making.
 
 **Learning Objectives:**
 By completing this lab, you will:
@@ -17,16 +27,24 @@ Build a Fabric notebook to automate the submission and processing of call record
 Create a Data Agent to interactively query and explore analysis results using natural language
 Design a Power BI report to visualize key call center metrics and trends
 
-**Lab Overview:**
-This workshop simulates a real-world scenario where a contact center needs to analyze large volumes of call recordings to understand customer satisfaction, agent performance, and common issues. You'll orchestrate multiple Azure and Fabric services to build an intelligent analytics pipeline that transforms raw audio data into actionable business insights.
+**Project Overview**
+This project simulates a real‑world enterprise scenario where organizations need to analyze large volumes of customer interaction data to gain insights into service performance, customer experience, and recurring issues.
+
+Raw audio recordings are ingested into Azure Blob Storage and processed using AI services to extract meaningful insights. The processed data is stored in a centralized Lakehouse, where it becomes available for analytics and reporting.
+
+An automated pipeline ensures that newly uploaded recordings are processed efficiently, reducing dependency on manual workflows. The resulting dataset supports both structured reporting through Power BI and interactive exploration through a Data Agent.
+
+By integrating AI, data engineering, and visualization technologies, the solution establishes a scalable analytics platform that enables faster insight generation, improved operational visibility, and continuous service improvement without exposing proprietary system details.
 
 **Technologies Used:**
 - Microsoft Foundry (Content Understanding) for AI-powered content extraction
 - Azure Blob Storage for scalable data storage
+- Azure Key Vault
 - Microsoft Fabric Lakehouse for unified data analytics
 - Fabric Notebooks for data processing automation
 - Data Agents for conversational data exploration
-- Power BI for interactive reporting
+- Power BI for Semantic Model and Report
+- Microsoft Teams with Copilot
 
 **Estimated Time:** 2-3 hours
 
