@@ -5,6 +5,7 @@
 # Analyzing data with Microsoft Fabric and Azure Content Understanding
 
 **Introduction**
+
 This project presents the design and implementation of an end‑to‑end analytics solution for processing and analyzing customer interaction data, specifically focusing on call recordings within a cloud‑based communication platform.
 
 The solution leverages Azure AI Foundry Content Understanding to extract structured insights from unstructured audio files, including sentiment classification, customer feedback themes, call outcomes, and interaction context. These insights are integrated into a unified analytics environment using Microsoft Fabric, enabling centralized data processing, storage, and reporting.
@@ -27,6 +28,7 @@ Create a Data Agent to interactively query and explore analysis results using na
 Design a Power BI report to visualize key call center metrics and trends
 
 **Project Overview**
+
 This project simulates a real‑world enterprise scenario where organizations need to analyze large volumes of customer interaction data to gain insights into service performance, customer experience, and recurring issues.
 
 Raw audio recordings are ingested into Azure Blob Storage and processed using AI services to extract meaningful insights. The processed data is stored in a centralized Lakehouse, where it becomes available for analytics and reporting.
@@ -36,6 +38,7 @@ An automated pipeline ensures that newly uploaded recordings are processed effic
 By integrating AI, data engineering, and visualization technologies, the solution establishes a scalable analytics platform that enables faster insight generation, improved operational visibility, and continuous service improvement without exposing proprietary system details.
 
 **Technologies Used:**
+
 - Microsoft Foundry (Content Understanding) for AI-powered content extraction
 - Azure Blob Storage for scalable data storage
 - Azure Key Vault
