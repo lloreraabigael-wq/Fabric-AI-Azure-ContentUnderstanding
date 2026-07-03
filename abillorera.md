@@ -18,8 +18,7 @@ The solution is further enhanced with:
 
 This integrated approach transforms unstructured customer interaction data into actionable insights that support operational monitoring, product improvement, and data‑driven decision‑making.
 
-**Learning Objectives:**
-By completing this lab, you will:
+**Project Objectives:**
 
 Use Microsoft Foundry's Content Understanding to automatically extract insights from audio files (customer names, agent names, sentiment, resolution status, etc.)
 Provision and configure a Microsoft Fabric workspace with OneLake storage
