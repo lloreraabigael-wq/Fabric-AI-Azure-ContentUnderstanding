@@ -15,7 +15,7 @@ A modern data architecture is implemented using a Fabric Lakehouse, where proces
 The solution is further enhanced with:
 - A Data Agent, providing conversational analytics capabilities for     business users
 - A Power BI semantic model and report, enabling interactive visualization of key metrics and trends
-- Integration with Microsoft Teams and Copilot, allowing users to access insights through natural language queries and receive AI‑generated summaries directly within a collaborative workspace
+- Integration with Microsoft Teams and Copilot, allowing users to access insights through natural language queries and receive AI‑generated summaries directly within a collaborative workspace.
 
 This integrated approach transforms unstructured customer interaction data into actionable insights that support operational monitoring, product improvement, and data‑driven decision‑making.
 
