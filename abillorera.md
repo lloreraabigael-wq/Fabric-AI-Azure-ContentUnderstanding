@@ -46,7 +46,7 @@ By integrating AI, data engineering, and visualization technologies, the solutio
 - Fabric Notebooks for data processing automation
 - Data Agents for conversational data exploration
 - Power BI for Semantic Model and Report
-- Microsoft Teams with Copilot
+- Microsoft Teams with the Fabric Agent for query
 
 **Estimated Time:** 2-3 hours
 
