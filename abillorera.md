@@ -25,7 +25,7 @@ Use Microsoft Foundry's Content Understanding to automatically extract insights 
 Provision and configure a Microsoft Fabric workspace with OneLake storage
 Build a Fabric notebook to automate the submission and processing of call recordings through the Content Understanding API
 Create a Data Agent to interactively query and explore analysis results using natural language
-design a Power BI report to visualize key call center metrics and trends
+design a Power BI report to visualize key call center metrics and product trends.
 
 **Project Overview**
 
